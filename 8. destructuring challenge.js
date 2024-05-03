@@ -27,7 +27,8 @@ let students = [
 
 const makeList = (arr, student) => {
   let foundStudent = arr.find(
-    /**this (s) could be anything*/ (s) => s.name === student
+    /**this (s) could be anything, so long as the s. is next!*/ (s) =>
+      s.name === student
   );
   return foundStudent ? foundStudent.subjects : [];
 };
