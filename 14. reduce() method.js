@@ -27,7 +27,7 @@ const teamMembers = [
   },
 ];
 
-// Totally a specific object property
+// Totalling a specific object property
 
 let totalExperience = teamMembers.reduce(
   (acc, curr) => acc + curr.yrsExperience,
